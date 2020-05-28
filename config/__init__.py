@@ -27,15 +27,15 @@ def get_env_or_raise(key):
 
 # 这些变量将由平台通过环境变量提供给应用，本地开发时需手动配置，详见：http://docs.open.oa.com/topics/company_tencent/python_framework_usage#29-配置环境变量
 # 应用 ID
-APP_CODE = ''
+APP_CODE = 'examc'
 # 应用用于调用云 API 的 Secret
-SECRET_KEY = ''
+SECRET_KEY = '78005b36-7fa5-49cd-aec2-6f7eccf20628'
 
 
 # SaaS运行版本，如非必要请勿修改
 RUN_VER = 'open'
 # 蓝鲸SaaS平台URL，例如 http://paas.bking.com
-BK_URL = ""
+BK_URL = "http://paas.cy.com"
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(

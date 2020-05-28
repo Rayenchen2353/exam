@@ -25,7 +25,7 @@ DATABASES.update(
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'kaoshi',  #  数据库名
             'USER': 'kaoshi',  #  用户
-            'PASSWORD': 'kaoshi123',  # 数据库密码
+            'PASSWORD': 'Kaoshi123!',  # 数据库密码
             'HOST': '172.27.16.29', # 数据库 IP
             'PORT': '3306',
         },
